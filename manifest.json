@@ -5,7 +5,7 @@
     "content_scripts": [
         {
           "matches": ["https://*.google.com/*","https://*.google.ru/*"],
-          "css": ["myStyles.css"],
+         
           "js": ["jquery.min.js","contentScript.js"]
         }
       ],
