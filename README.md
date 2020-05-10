@@ -1,2 +1,2 @@
 # CoronaToSolar
-Add redirect link from old corona sdk forum to solar2d dorum
+Add redirect link in Google Search. With this link try redirect from  old corona sdk forum to solar2d dorum
