@@ -1,4 +1,4 @@
-# Redirecter CoronaSDK Forum to Solar2D Forum
+# Redirecter from CoronaSDK Forum to Solar2D Forum
 Add redirect link in Google Search. With this link try redirect from  old corona sdk forum to solar2d dorum
 
 ## What does it look like
