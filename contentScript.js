@@ -4,7 +4,7 @@ $(document).ready(function(){
     if($(sites[i]).attr("href") !=undefined && $(sites[i]).attr("href").indexOf("https://forums.coronalabs.com/")==0){
      
        var  title=($(sites[i]).find("h3").length!=0)?($(sites[i]).find("h3")[0].innerText):($(sites[i]).text().replace("...",""));
-        title=title.replace(" - Corona Labs Forums","")
+        title=title.replace(/-[a-zA-Z ]+$/g,"")
         
         $(sites[i]).parent().append("<div><a href='https://forums.solar2d.com/search?q="+escape(title)+"'>Redirect to Solar2d forum</a></div>")
     }
