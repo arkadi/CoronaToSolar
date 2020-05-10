@@ -1,0 +1,16 @@
+{
+    "name": "Corona to Solar",
+    "manifest_version": 2,
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": ["https://*.google.com/*","https://*.google.ru/*"],
+          "css": ["myStyles.css"],
+          "js": ["jquery.min.js","contentScript.js"]
+        }
+      ],
+    "permissions": [
+      "activeTab"
+    ]
+  
+  }
